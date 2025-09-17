@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
         <header style={{background:'#bdffff'}}>
-        <img src={logoImage} alt="Profile" style={{ width: '30px', height: '30px', paddingLeft: '5px'}} />
+        <img src={logoImage} alt="Profile" style={{ width: '50px', height: '50px', paddingLeft: '5px'}} />
     </header>
     
     </div>

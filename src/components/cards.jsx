@@ -50,7 +50,7 @@ const Cards = ({data = []}) => {
           <Typography variant="body2" gutterBottom
           sx={{
             display: '-webkit-box',
-            WebkitLineClamp: 4,
+            WebkitLineClamp: 3,
             WebkitBoxOrient: 'vertical',
             overflow: 'hidden',
             textOverflow: 'ellipsis',
