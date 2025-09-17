@@ -14,8 +14,8 @@ const Buttons = ({ selectedCategory , setSelectedCategory }) => {
     { label: "Couples", icon: <FavoriteIcon /> },
     ];
   return (
-    <div style={{padding:'20px', display:'flex', justifyContent:'center'}}>
-         <Stack  spacing={2} direction="row" justifyContent="center" mb={1}>
+    <div style={{padding:'20px', display:'flex', justifyContent:'center',overflowX:'auto',whiteSpace:'nowrap'}}>
+         <Stack  spacing={2} direction="row" justifyContent="center" mb={1} sx={{ display: 'inline-flex' }}>
             {categories.map((category) => (
                 <Button 
                 key={category.label} 
