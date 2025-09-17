@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Header from '../components/header'
 import Buttons from '../components/buttons'
 import Cards from '../components/cards'
+import { Typography } from '@mui/material';
 import cardsData from '../components/prompts/data'
 
 const Home = () => {
@@ -20,6 +21,9 @@ const Home = () => {
     selectedCategory={selectedCategory}
         setSelectedCategory={setSelectedCategory}
     />
+    <Typography variant="h6" align="center" gutterBottom>
+      {selectedCategory} Prompts
+    </Typography>
 
     <Cards
     

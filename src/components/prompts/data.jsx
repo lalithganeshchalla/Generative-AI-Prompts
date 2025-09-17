@@ -10,17 +10,17 @@ import Coples1 from '../../assets/coples1.jpg';
 const cardsData = [
   {
     img: Girl2,
-    tag: "Girl",
+    tag: "Women",
     text: "Create"
   },
     {
     img: Boys1,
-    tag: "Male",
+    tag: "Men",
     text: "Create a retro, vintage-inspired image grainy yet bright - based on the reference picture. The boy should be dressed in a perfect red, Pinterest-style aesthetic retro kurta. The vibe must capture the essence of a 90s movie brown-haired baddie, with wavy curls, enhanced by a windy, romantic atmosphere. He stands against a solid wall, where deep shadows and dramatic contrasts add mystery and artistry to the scene, creating a moody yet enchanting cinematic effect."
   },
   {
     img: Girl1,
-    tag: "Female",
+    tag: "Women",
     text: "Create a retro, vintage-inspired image grainy yet bright - based on the reference picture. The boy should be dressed in a perfect red, Pinterest-style aesthetic retro kurta. The vibe must capture the essence of a 90s movie brown-haired baddie, with wavy curls, enhanced by a windy, romantic atmosphere. He stands against a solid wall, where deep shadows and dramatic contrasts add mystery and artistry to the scene, creating a moody yet enchanting cinematic effect."
   },
   {
@@ -30,7 +30,7 @@ const cardsData = [
   },
   {
     img: Boys2,
-    tag: "Male",
+    tag: "Men",
     text: "Create a retro vintage grainy but bright image of the reference picture but draped in a perfect plain kurta yellow color Pinteresty aesthetic retro kurta. It must feel like a 90s movie dark brown wavy curly hair and romanticising windy environment. The boy is standing against a solid wall deep shadows and contrast drama, creating a mysterious and artistic atmosphere where the lighting is warm with a golden tones of evoking a sunset or golden hour glow. The background is minimalist and slightly textured the expression on his face is moody, calm yet happy and introspective."
   },
 
