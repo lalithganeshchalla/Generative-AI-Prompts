@@ -20,7 +20,7 @@ const Buttons = ({ selectedCategory , setSelectedCategory }) => {
                 <Button 
                 key={category.label} 
                 variant={selectedCategory === category.label ? "contained" : "outlined"} 
-                sx={{ width: 60, height: 20, fontSize: '10px' , borderColor:'#008080ff', borderRadius:'20px' }}
+                sx={{ width: 90, height: 35, fontSize: '10px' , borderColor:'#008080ff', borderRadius:'20px' }}
                 onClick={() => setSelectedCategory(category.label)}
                 startIcon={category.icon}
                 >
