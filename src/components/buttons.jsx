@@ -15,7 +15,7 @@ const Buttons = ({ selectedCategory , setSelectedCategory }) => {
     ];
   return (
     <div style={{padding:'20px', display:'flex', justifyContent:'center',overflowX:'auto',whiteSpace:'nowrap'}}>
-         <Stack  spacing={2} direction="row" justifyContent="center" mb={1} sx={{ display: 'inline-flex' }}>
+         <Stack  spacing={1} direction="row" justifyContent="center" mb={1} sx={{ display: 'inline-flex' }}>
             {categories.map((category) => (
                 <Button 
                 key={category.label} 
