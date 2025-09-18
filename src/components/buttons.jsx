@@ -5,6 +5,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import MaleIcon from '@mui/icons-material/Male';
 import FemaleIcon from '@mui/icons-material/Female';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import ChildCareIcon from '@mui/icons-material/ChildCare';
 const Buttons = ({ selectedCategory , setSelectedCategory }) => {
 
     const categories = [
@@ -12,6 +13,8 @@ const Buttons = ({ selectedCategory , setSelectedCategory }) => {
     { label: "Men", icon: <MaleIcon /> },
     { label: "Women", icon: <FemaleIcon /> },
     { label: "Couples", icon: <FavoriteIcon /> },
+    { label: "Kids", icon: <ChildCareIcon /> },
+    { label: "Others", icon: null },
     ];
   return (
     <div style={{padding:'20px',paddingLeft:'50px', display:'flex', justifyContent:'center',overflowX:'auto',whiteSpace:'nowrap'}}>
