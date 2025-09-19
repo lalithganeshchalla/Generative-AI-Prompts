@@ -6,6 +6,51 @@ import Coples1 from '../../assets/coples1.jpg';
 
 const cardsData = [
   {
+    img: require('../../assets/couple3.png'),
+    tag: "couples",
+    text: "Use a 90s Bollywood cinema style to turn this couple's shot into a grainy, bright, retro, and vintage image. The male is clutching the woman's hand while sporting a black shirt that seems ancient. Her crimson chiffon saree is flawless. With warm, golden sunset tones and a minimalist, slightly textured background, the landscape is romanticised and breezy. Their facial expressions are quietly joyful, serene, and gloomy."
+  },
+  {
+    img: require('../../assets/boy11.png'),
+    tag: "men",
+    text: "Using the image above as a guide, take a sophisticated photograph of a man standing in the rain under a streetlight while wearing a trench coat and a hat. The image has a grainy, good quality and is in high contrast black and white."
+  },
+  {
+    img: require('../../assets/boy10.png'),
+    tag: "men",
+    text: "Using the image above as a guide, draw a vintage image of a man carrying a bat while wearing a traditional baseball uniform. Like an old sports card, the black-and-white image exudes strength and heroism."
+  },
+  {
+    img: require('../../assets/boy9.png'),
+    tag: "men",
+    text: "Using the image above as a guide, draw a vintage image of a man carrying a bat while wearing a traditional baseball uniform. Like an old sports card, the black-and-white image exudes strength and heroism."
+  },
+  {
+    img: require('../../assets/boy8.png'),
+    tag: "men",
+    text: "Profile photo of me holding a red and white Nike Premier League football on my forehead while I am focused intently on the ceiling. I have a confident, lengthened neck, softly closed lips, and a little elevated chin. The athletic and concentrated appearance is further enhanced by the fact that I am dressed in a professional football uniform, which includes a tailored jersey and shorts.  The ball and my attire stand out sharply against the solid, deep blue background. The dramatic lighting highlights the ball's spherical shape and creates gentle shadows on my jawline. Shown in full colour. The same face."
+  },
+  {
+    img: require('../../assets/boy7.png'),
+    tag: "men",
+    text: "sunglasses, white trousers, loafers and a navy blue shirt. Action: Holding a girl in his arms while adjusting his sunglasses with one hand. Setting: A balcony on the beach with waves in the background. Mood: airy, romantic, and refreshing."
+  },
+  {
+    img: require('../../assets/boy6.png'),
+    tag: "men",
+    text: "Create a 3:4 full-body, above, high-angle photograph of a man lounging on the hood of a red Lamborghini Urus in a dark underground garage. Sporting a leather strap watch, brown trousers, polished black shoes and a clean white open-collar shirt. There is a tattoo on the forearm. Shallow depth of field, creamy bokeh, hyper-realistic 8K detail, cinematic warm colour grading, soft sunbeam lighting with natural reflections on the car, and a millionaire vibe."
+  },
+  {
+    img: require('../../assets/boy5.jpg'),
+    tag: "men",
+    text: "A hyper detailed 4K vertical realistic portrait (aspect ratio 9:16) using 100% of the faces from the uploaded photos, with no change in jawline, or face shape. A highly detailed, photorealistic image of a person standing in a vast, dense field of vibrant purple flowers. The person's posture is one of complete surrender and serenity. Their head is tilted back and slightly to their right, with eyes closed and a peaceful, blissful expression on their face. Their right arm is extended straight out to the side and angled slightly upwards, with the palm of the hand open and facing the sky. Their left arm is also extended straight out to the side but is angled slightly downwards, with the palm of the hand also open and facing upwards, creating a mirrored, balanced pose. The person is wearing modern, silver over-ear headphones. They are dressed in a dark charcoal or black long-sleeved, button-down shirt with the collar open and a simple silver chain necklace visible. The environment is dramatic. The sky above is filled with lots of dark, moody, overcast clouds, suggesting an approaching storm, but a soft, diffused light illuminates the person, making them the focal point. Small, delicate purple petals are frozen in motion, gently falling through the air around them. The overall mood of the image is one of profound peace, freedom, and an immersive connection to music and nature."
+  },
+  {
+    img: require('../../assets/girl9.jpg'),
+    tag: "women",
+    text: "A hyper-detailed 4K vertical realistic portrait (aspect ratio 9:16) using 100% of the woman’s face from the uploaded photo, with no change to her jawline or face shape. A highly detailed, photorealistic image of a woman standing in a vast, dense field of vibrant purple flowers. Her posture is one of complete surrender and serenity. Her head is tilted back and slightly to her right, eyes closed with a peaceful, blissful expression on her face. Her right arm is extended straight out to the side and angled slightly upwards, palm open and facing the sky. Her left arm is also extended straight out to the side but angled slightly downwards, palm open and facing upwards, creating a mirrored, balanced pose. he is wearing modern, silver over-ear headphones. She is dressed in a dark charcoal or black saree with subtle silver borders that drapes naturally, with a simple silver chain necklace visible. he environment is dramatic: the sky above is filled with dark, moody, overcast clouds, suggesting an approaching storm. Soft, diffused light illuminates her, making her the focal point. Small, delicate purple petals are frozen in motion, gently falling through the air around her. The overall mood of the image is one of profound peace, freedom, and an immersive connection to music and nature."
+  },
+  {
     img: require('../../assets/girl8.jpg'),
     tag: "women",
     text: "A cinematic film still of a young woman lying horizontally on her side in a field of small white flowers. Her head is turned slightly toward the camera, resting among the blossoms, with long, wavy dark brown hair framing her face. Do not alter her face, features, or expression-keep her natural look with no additional makeup. Captured from a side view close-up, with shallow depth of field, soft natural lighting, warm tones, and a dreamy, romantic atmosphere, like a scene from an art film"
