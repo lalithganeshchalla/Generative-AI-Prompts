@@ -1,10 +1,31 @@
-import Boys1 from '../../assets/BoysRetroPrompts1.png';
-import Boys2 from '../../assets/Boys Retro Prompts 2.png';
-import Girl1 from '../../assets/girl1.jpg';
-//import Girl2 from '../../assets/girl2.jpg';
-import Coples1 from '../../assets/coples1.jpg';
+
 
 const cardsData = [
+  {
+    img: require('../../assets/boy12.png'),
+    tag: "men",
+    text: "Take the face from the uploaded reference photo exactly 100% the same (do not alter his facial features, keep his identity intact). Create a cool young man with wavy, vintage-style hair, clean-cut look, wearing a white t-shirt and light-colored jeans. He is sitting comfortably on a wooden crate, looking to the right while holding a denim jacket. The background features a smoky blue-and-red effect blended into a bright black studio scene, creating a dramatic and stylish atmosphere."
+  },
+  {
+    img: require('../../assets/animal1.png'),
+    tag: "animals",
+    text: "Make a little, Miniature 3D model of this dog. The model should be placed on a desk next to birthday presents that provide the impression that the model was opened as a present."
+  },
+  {
+    img: require('../../assets/kid1.png'),
+    tag: "kids",
+    text: "Take the face from the attached reference photo exactly 100% the same (do not alter his facial features, keep his identity intact). He is a kid. Create a retro, vintage-inspired, grainy yet bright image where the boy is dressed in a perfect black suit with Pinterest-style retro pants. The mood should feel like a 90s movie hair baddie. He holds a bunch of red roses in one hand while the other hand rests in his pocket, romanticizing a windy environment. The young boy stands against a solid deep shadow with dramatic contrast, evoking mystery and artistry. The lighting must be warm and golden, resembling a sunset or golden hour glow."
+  },
+  {
+    img: require('../../assets/kid2.png'),
+    tag: "kids",
+    text: "Take the face from the attached photo , same 100% same , he is a kid  A stylish kid in a sleek, all-white outfit poses confidently against a pitch-white house background. He wears a tailored white suit, a white shirt with the top buttons open, and a subtle silver chain around his neck. He sports white sunglasses , exuding charisma and mystery. A luxury wristwatch glints on his left wrist. The lighting is dramatic, highlighting his facial features and casting soft shadows, creating a bold, high-fashion editorial look."
+  },
+  {
+    img: require('../../assets/kid3.png'),
+    tag: "kids",
+    text: "Take the face from the attached photo , same 100% same , he is a kid A stylish kid, facial will be the same as the reference image, with sharp features and dark tousled hair parted naturally. He is leaning casually against a vintage suitcase. He wears a textured brown blazer over an open-collar dark brown shirt, slightly unbuttoned at the top, paired with high-waisted light beige pleated trousers and a dark belt. The aesthetic is elegant and retro-inspired, with earthy tones. Minimalistic indoor background, cinematic warm natural lighting"
+  },
   {
     img: require('../../assets/couple3.png'),
     tag: "couples",
@@ -91,26 +112,26 @@ const cardsData = [
     tag: "Women",
     text: "A perfect flower chiffon white color pinteresty aesthetic retro saree It must feel like a 90s movie dark brown wavy curly hair with a small flower tucked visibly into her curls.the girl is standing against a solid wall deep shadows and contrast drama lotus flower bookay in her hand while rose petals are showering on her and creating a mysterious and artistic atmosphere where the lighting is worm a golden tones of evoking a sunset or golden hour glow please do not change the face"
   },
-    {
-    img: Boys1,
-    tag: "Men",
-    text: "Create a retro, vintage-inspired image grainy yet bright - based on the reference picture. The boy should be dressed in a perfect red, Pinterest-style aesthetic retro kurta. The vibe must capture the essence of a 90s movie brown-haired baddie, with wavy curls, enhanced by a windy, romantic atmosphere. He stands against a solid wall, where deep shadows and dramatic contrasts add mystery and artistry to the scene, creating a moody yet enchanting cinematic effect."
-  },
-  {
-    img: Girl1,
-    tag: "Women",
-    text: "Create a retro, vintage-inspired image grainy yet bright - based on the reference picture. The boy should be dressed in a perfect red, Pinterest-style aesthetic retro kurta. The vibe must capture the essence of a 90s movie brown-haired baddie, with wavy curls, enhanced by a windy, romantic atmosphere. He stands against a solid wall, where deep shadows and dramatic contrasts add mystery and artistry to the scene, creating a moody yet enchanting cinematic effect."
-  },
-  {
-    img: Coples1,
-    tag: "Couples",
-    text: "Create a retro, vintage-inspired image grainy yet bright based on the reference picture. The girl should be draped in a perfect off-white cotton saree with a red blouse. Pinterest-style aesthetic saree. The vibe must capture the essence of a 90s movie dark brown-haired baddie, enhanced by a windy, romantic atmosphere and the guy should be wearing an off white kurta She stands against an old wooden door, where deep shadows and dramatic contrasts add mystery and artistry to the scene, creating a moody yet enchanting cinematic effect. Make the girl pose like she's walking and looking back while the guy is holding her saree pallu very evidently and the guy should be looking at the girl."
-  },
-  {
-    img: Boys2,
-    tag: "Men",
-    text: "Create a retro vintage grainy but bright image of the reference picture but draped in a perfect plain kurta yellow color Pinteresty aesthetic retro kurta. It must feel like a 90s movie dark brown wavy curly hair and romanticising windy environment. The boy is standing against a solid wall deep shadows and contrast drama, creating a mysterious and artistic atmosphere where the lighting is warm with a golden tones of evoking a sunset or golden hour glow. The background is minimalist and slightly textured the expression on his face is moody, calm yet happy and introspective."
-  },
+  //   {
+  //   img: Boys1,
+  //   tag: "Men",
+  //   text: "Create a retro, vintage-inspired image grainy yet bright - based on the reference picture. The boy should be dressed in a perfect red, Pinterest-style aesthetic retro kurta. The vibe must capture the essence of a 90s movie brown-haired baddie, with wavy curls, enhanced by a windy, romantic atmosphere. He stands against a solid wall, where deep shadows and dramatic contrasts add mystery and artistry to the scene, creating a moody yet enchanting cinematic effect."
+  // },
+  // {
+  //   img: Girl1,
+  //   tag: "Women",
+  //   text: "Create a retro, vintage-inspired image grainy yet bright - based on the reference picture. The boy should be dressed in a perfect red, Pinterest-style aesthetic retro kurta. The vibe must capture the essence of a 90s movie brown-haired baddie, with wavy curls, enhanced by a windy, romantic atmosphere. He stands against a solid wall, where deep shadows and dramatic contrasts add mystery and artistry to the scene, creating a moody yet enchanting cinematic effect."
+  // },
+  // {
+  //   img: Coples1,
+  //   tag: "Couples",
+  //   text: "Create a retro, vintage-inspired image grainy yet bright based on the reference picture. The girl should be draped in a perfect off-white cotton saree with a red blouse. Pinterest-style aesthetic saree. The vibe must capture the essence of a 90s movie dark brown-haired baddie, enhanced by a windy, romantic atmosphere and the guy should be wearing an off white kurta She stands against an old wooden door, where deep shadows and dramatic contrasts add mystery and artistry to the scene, creating a moody yet enchanting cinematic effect. Make the girl pose like she's walking and looking back while the guy is holding her saree pallu very evidently and the guy should be looking at the girl."
+  // },
+  // {
+  //   img: Boys2,
+  //   tag: "Men",
+  //   text: "Create a retro vintage grainy but bright image of the reference picture but draped in a perfect plain kurta yellow color Pinteresty aesthetic retro kurta. It must feel like a 90s movie dark brown wavy curly hair and romanticising windy environment. The boy is standing against a solid wall deep shadows and contrast drama, creating a mysterious and artistic atmosphere where the lighting is warm with a golden tones of evoking a sunset or golden hour glow. The background is minimalist and slightly textured the expression on his face is moody, calm yet happy and introspective."
+  // },
 
 ];
 
