@@ -11,11 +11,11 @@ const AdsenseAd = ({ adClient, adSlot }) => {
 
   return (
    <ins class="adsbygoogle"
-     style="display:block"
+     style={{display:"block"}}
      data-ad-format="fluid"
      data-ad-layout-key="-fb+5w+4e-db+86"
-     data-ad-client="ca-pub-5889684785099263"
-     data-ad-slot="5880516949"></ins>
+     data-ad-client={adClient}
+     data-ad-slot={adSlot}></ins>
   );
 };
 

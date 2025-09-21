@@ -4,6 +4,7 @@ import Buttons from '../components/buttons'
 import Cards from '../components/cards'
 import { Typography } from '@mui/material';
 import cardsData from '../components/prompts/data'
+import AdsenseAd from '../components/AdsenseAd';
 
 const Home = () => {
     const [selectedCategory, setSelectedCategory] = useState("All");
