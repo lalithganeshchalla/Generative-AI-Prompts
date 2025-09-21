@@ -2,6 +2,63 @@
 
 const cardsData = [
   {
+    img: require('../../assets/girl11.png'),
+    tag: "women",
+    text: "Cinematic, hyper-realistic full body shot: me(use my face with accurate 100%) on a vintage park bench under warm streetlight at golden hour, focused on smartphone. Light purple oversized shirt, beige trousers, sneakers, tousled hair, glasses, leather watch; flower bouquet beside. Lush blooms, cherry tree, dramatic golden clouds, creamy bokeh foreground, cable overhead. Likes 8K, RAW, shallow depth, warm highlights/teal shadows, vivid textures. 100% face match."
+  },
+  {
+    img: require('../../assets/girl10.png'),
+    tag: "women",
+    text: "A medium shot portrait featuring you in a structured white shirt against a seamless white backdrop. The innovative composition uses multiple angled mirror fragments positioned around you, creating a cubist-like fragmentation of your face and upper body. Each mirror reflects a different angle of you simultaneously, with high-contrast black and white processing highlighting the experimental, boundary-pushing aesthetic that Avedon developed for his Harper's Bazaar work."
+  },
+  {
+    img: require('../../assets/boy21.png'),
+    tag: "men",
+    text: "Create a retro vintage grainy but bright image of the reference picture but draped in a perfect red wine color Pinteresty aesthetic retro shirt with white pant and holding a rose flower in hands. It must feel like a 90s movie and romanticising windy environment. The boy is standing against a solid wall deep shadows and contrast drama, creating a mysterious and artistic atmosphere where the lighting is warm with a golden tones of evoking a sunset or golden hour glow. Likes The background is minimalist and slightly textured the expression on"
+  },
+  {
+    img: require('../../assets/boy20.png'),
+    tag: "men",
+    text: "To take this young Indian boy photo reference and generate image effectively and cinematic look he have skinny personality he is wearing un button lite colour pink shirt and and cream colour cargo pant and he wearing watch small silver chain his neck he slidely sitting on a boat and giving best pose the boat in a river the river Full of Lotus flowers and he using headset and enjoying music to little closed eyes to seeing the sky he is wearing white colour stylish shoes."
+  },
+  {
+    img: require('../../assets/boy19.png'),
+    tag: "men",
+    text: "Use face image, Detailed close-up of a man hidden among flowering branches. Half his face shows one hazel green eye, and sun-kissed skin. White flowers with orange-yellow stamens and green leaves frame his face, some sharp, some blurred. and soft natural light highlight her skin. Use the exact same face. 4K, 8K."
+  },
+  {
+    img: require('../../assets/boy18.png'),
+    tag: "men",
+    text: "A cinematic, realistic portrait of luploaded image sitting on a simple chair placed in the shallow water of a calm lake, He is wearing a slightly open white shirt with rolled-up sleeves and light beige trousers, wet from the water, He holds an open book in his hands and a single red rose resting on his arm, adding a poetic touch. His curly hairstyle is natural and stylish. The background shows misty hills and a soft cloudy sky, creating a dreamy, moody, and aesthetic vibe. The water gently ripples around the chair, reflecting light, Highly detailed, realistic lighting, natural colors, soft depth of field."
+  },
+  {
+    img: require('../../assets/boy17.png'),
+    tag: "men",
+    text: "A hyper-realistic 1/7 scale figurine of neymar in FC Barcelona Home jersey #11, mid-action pose, on a round acrylic base with green turf. Scene: modern desk in a cinematic studio, warm dramatic lighting, toy collections softly blurred in background. Nearby, the referenced person in a FC Barcelona Home jersey carefully brushes the figurine. Premium, polished, filmic atmosphere with deep contrasts."
+  },
+
+  {
+    img: require('../../assets/boy16.png'),
+    tag: "men",
+    text: "A vertical 9:16 high-resolution 8K vintage-style flash photograph of a stylish white man standing confidently on a nighttime city street, captured with dramatic fisheye lens distortion. The image includes subtle grain, light film scratches, and analog texture effects for a nostalgic yet editorial feel. He wears an abstract red shirt with bold, expressive artistic patterns, partially unbuttoned to reveal his confident, edgy demeanor. Chunky metallic jewelry and fashionable sunglasses add to his striking streetwear aesthetic. The city backdrop is softly transformed by cozy home party vibes red ambient lighting, delicate string lights hanging above, and a warm, intimate atmosphere that blends festivity with the urban night setting. Skin texture is flawless, lighting is dramatic with soft shadows and lens flash reflections. No distortions, no anatomical flaws. Image must be generated entirely based on the uploaded photo, maintaining all the characteristics of the main character, with perfect skin texture, 8K quality, and an extremely high level of realism."
+  },
+
+  {
+    img: require('../../assets/boy15.png'),
+    tag: "men",
+    text: "A hyper-realistic cinematic editorial portrait of the uploaded person (preserve face 100%). Α stylish 18 year young boy sitting thoughtfully at a modern café table. He wears a light blue and white striped shirt with the sleeves casually rolled up, white pants, and glossy black lace-up boots. His legs are crossed, and one hand rests on the table. The café interior features a cool-toned design with deep blue accents, a gray and white terrazzo floor, large green potted plants."
+  },
+  {
+    img: require('../../assets/boy14.png'),
+    tag: "men",
+    text: "Use the uploaded reference image as the main base. Ultra-realistic cinematic portrait of a young man standing near glowing string lights at night. The man is wearing a stylish black kurta, softly smiling and gazing looking ahead with a expression, standing in style. Background is dark and blurred, with warm golden bokeh lights creating a festive, magical atmosphere. Lighting is warm, glowing, and softly illuminating the face, with smooth shadows and depth of field for a professional."
+  },
+  {
+    img: require('../../assets/boy13.png'),
+    tag: "men",
+    text: "A hyperrealistic cinematic photograph capturing a fleeting, intimate moment on a dimly lit underground subway platform. The central subject is a stunning young Asian man, body positioned at a slight slant angle not fully in profile and not fully frontal with his face turned slightly, giving a subtle intrigue. His face, hairstyle, and eyeglasses remain exactly the same as in the attached reference photo, with a direct, piercing gaze into the camera. He stands perfectly still, a serene figure amidst the chaos, dressed in an elegant long black coat. In stark contrast, a vibrant yellow train rushes past in the background, its speed rendered as a brilliant, dynamic streak of motion blur. The scene is enveloped in warm, moody atmospheric lighting from the station, casting soft golden glows onto the arched tiled ceiling. The composition showcases a masterful use of slow shutter speed, freezing the subject in clarity while capturing the restless energy of the city. The focus is tack-sharp on the man's face, creating a powerful emotional anchor in the frame. Ultra-detailed realism, cinematic depth, professional fashion editorial qualit"
+  },
+  {
     img: require('../../assets/boy12.png'),
     tag: "men",
     text: "Take the face from the uploaded reference photo exactly 100% the same (do not alter his facial features, keep his identity intact). Create a cool young man with wavy, vintage-style hair, clean-cut look, wearing a white t-shirt and light-colored jeans. He is sitting comfortably on a wooden crate, looking to the right while holding a denim jacket. The background features a smoky blue-and-red effect blended into a bright black studio scene, creating a dramatic and stylish atmosphere."
