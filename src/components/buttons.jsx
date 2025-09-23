@@ -16,7 +16,7 @@ const Buttons = ({ selectedCategory , setSelectedCategory }) => {
     { label: "Women", icon: <Person2Icon /> , count: 10 },
     { label: "Couples", icon: <FavoriteIcon />, count: 2 },
     { label: "Kids", icon: <ChildCareIcon />, count: 3 },
-    { label: "Animals", icon: <PetsIcon/> , count: 1 },
+    { label: "Animals", icon: <PetsIcon/> , count: 4 },
     ];
   return (
     <div style={{padding:'20px',paddingLeft:'50px', display:'flex', justifyContent:'center',overflowX:'auto',whiteSpace:'nowrap'}}>

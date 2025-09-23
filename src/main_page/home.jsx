@@ -15,7 +15,7 @@ const Home = () => {
     ? cardsData
     : cardsData.filter((card) => card.tag?.toLowerCase() === selectedCategory.toLowerCase());
   return (
-    <div>
+    <>
     <Header/>
 
     <Buttons
@@ -34,7 +34,7 @@ const Home = () => {
     
     data={filterData}
     />
-    </div>
+    </>
   )
 }
 
