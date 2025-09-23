@@ -15,7 +15,11 @@ const Cards = ({data = []}) => {
   return (
     <Grid container spacing={3} justifyContent="center">
   {data.map((card, index) => (
-    <Grid item key={index} xs={12} sm={6} md={3}>
+    <Grid key={index} sx={{
+    xs: 12,
+    sm: 6,
+    md: 4
+  }}>
       {/* xs=12 → 1 column on mobile 
           sm=6  → 2 columns on tablets
           md=3  → 4 columns on desktop */}
