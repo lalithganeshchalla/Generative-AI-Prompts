@@ -11,12 +11,12 @@ import ChildCareIcon from '@mui/icons-material/ChildCare';
 const Buttons = ({ selectedCategory , setSelectedCategory }) => {
 
     const categories = [
-    { label: "All", icon: <PeopleAltIcon /> },
-    { label: "Men", icon: <PersonIcon /> },
-    { label: "Women", icon: <Person2Icon /> },
-    { label: "Couples", icon: <FavoriteIcon /> },
-    { label: "Kids", icon: <ChildCareIcon /> },
-    { label: "Animals", icon: <PetsIcon/> },
+    { label: "All", icon: <PeopleAltIcon />, count: 33 },
+    { label: "Men", icon: <PersonIcon /> , count: 21 },
+    { label: "Women", icon: <Person2Icon /> , count: 10 },
+    { label: "Couples", icon: <FavoriteIcon />, count: 2 },
+    { label: "Kids", icon: <ChildCareIcon />, count: 3 },
+    { label: "Animals", icon: <PetsIcon/> , count: 1 },
     ];
   return (
     <div style={{padding:'20px',paddingLeft:'50px', display:'flex', justifyContent:'center',overflowX:'auto',whiteSpace:'nowrap'}}>
