@@ -2,15 +2,45 @@
 
 const cardsData = [
   // {
-  //   img: require('../../assets/boy26.png'),
+  //   img: require('../../assets/boy37.png'),
   //   tag: "men",
   //   text: ""
   // },
   // {
-  //   img: require('../../assets/boy26.png'),
+  //   img: require('../../assets/boy36.png'),
   //   tag: "men",
   //   text: ""
   // },
+  {
+    img: require('../../assets/girl15.png'),
+    tag: "men",
+    text: "A highly realistic cinematic portrait ot a young Gujarati woman in a traditional Garba outfit. She is wearing a vibrant chaniya choli with mirror work, colorful embroidery, and a gracetully dupatta in authentic Gujarati style. She Is adorned with oxidized silver jewelry - bangles, jhumka earrings, necklace, and maang tikka -completing the festive look. Inspired by the uploaded reference image, her pose is elegant and her expression warm and graceful. The background has a dramatic cinematic effect similar to the reference photo: a dark moody backdrop with a diagonal beam of golden light falling on her, creating depth and highlighting her features. The overall grading is warm with subtle film grain, giving a professional retro-cinematic Gujarati festive atmosphere."
+  },
+  {
+    img: require('../../assets/girl14.png'),
+    tag: "women",
+    text: "Beautiful woman extract face from image playing dandiya with joyful abandon. She has a bright smile, her hair flying as she twirls, holding decorated dandiya sticks, dressed in a colorful, traditional ghagra choli with intricate embroidery and mirror work. The background is a lively blurred scene of a nighttime Navratri festival with other dancers, twinkling lights, and festive decorations. The image is captured from a slightly low angle, emphasizing her dynamic movement."
+  },
+  {
+    img: require('../../assets/girl13.png'),
+    tag: "women",
+    text: "Retro pinterest-inspired aesthetic portrait of the same girl (face exactly same, wearing a bright green and yellow garba dress with embroidery and traditional silver jewellery. Her wavy curly long hair with a flower tucked in moves slightly in the wind. She stands leaning gently against a wall, looking slightly to her right with an introspective happy mood. The lighting is golden hour, high contrast shadows, 90s Bollywood retro grain, cinematic mysterious vibe."
+  },
+  {
+    img: require('../../assets/girl12.png'),
+    tag: "women",
+    text: "A full-body, back pose portrait of a person holding dandiya sticks. Maintain the original facial features and expression. The person is wearing a traditional Garba dress with intricate embroidery and vibrant colors, in a 90s aesthetic. Accentuate the look with a choker, bangles, and statement earrings. The hair is long, wavy, and dark brown, with a small flower tucked into the curls. The background is a solid wall with a slight texture, featuring deep shadows and high contrast. The scene is lit with warm, golden-hour light to create a moody, dramatic atmosphere."
+  },
+  {
+    img: require('../../assets/boy31.png'),
+    tag: "men",
+    text: "Create a beachy look of me like I'm on a beach where it's dark but someone took my picture with a flash, making my face sun-kissed, slightly glittery, and glowing. In the background, add a sunset where the sun has 98% set, leaving a deep purple-red sky, almost dark. The image is taken from behind my back as I turn toward the camera.I'm wearing a light yellow, loose, half-open linen shirt with sleeves rolled up, paired with a subtle gold seashell necklace. My hair is windswept, giving natural surfer vibes. The picture is cropped from above the waist, focusing on the upper body and glowing beachy aesthetic."
+  },
+  {
+    img: require('../../assets/boy30.png'),
+    tag: "men",
+    text: "A Vogue-style high-fashion editorial photograph, captured from a drone angle looking directly downward through a wild rose thicket and clusters of mixed wildflowers. The foreground stems and petals are blurred, creating a soft, dreamy vignette around the lens, like nature itself is framing the subject. In the center, a man lies effortlessly on the ground, his posture relaxed, almost floating in serenity, exuding an air of romantic nonchalance. He wears a voluminous oversized sweater in rich shades of purple and crimson red, paired with crisp, wide-cut white trousers, balancing tender romanticism with bold, sculptural modern fashion....."
+  },
   {
     img: require('../../assets/boy29.png'),
     tag: "men",
