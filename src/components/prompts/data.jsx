@@ -1,6 +1,56 @@
 
 
 const cardsData = [
+  // {
+  //   img: require('../../assets/boy26.png'),
+  //   tag: "men",
+  //   text: ""
+  // },
+  // {
+  //   img: require('../../assets/boy26.png'),
+  //   tag: "men",
+  //   text: ""
+  // },
+  {
+    img: require('../../assets/boy29.png'),
+    tag: "men",
+    text: "A full-body gothic portrait of a young man, using the uploaded face reference with a serious and slightly melancholic expression, seated centrally on an antique, dark wooden bench. He has medium-length, wavy dark brown hair, styled in a slightly messy yet refined manner, with some strands falling over his forehead. He is wearing a long, oversized black wool overcoat that drapes heavily and dramatically around him, almost pooling on the stone floor. Beneath the coat, a dark charcoal or black shirt is visible. His hands are clasped loosely in his lap, but one hand is raised with a single finger resting thoughtfully near his lips, echoing the gesture from the uploaded reference image. The background consists of a rough, cracked, dark grey stone wall with visible mortar lines, suggesting an ancient and weathered structure, possibly a crypt or old castle interior. There are hints of moss or subtle greenery growing on the stone. The lighting is low-key and dramatic, with soft, warm light emanating from numerous lit candles. Around the man and the bench, there are multiple ornate, dark metal candelabras and single candle holders placed on the floor and on low ledges. At least 15-20 individual candles are visible, casting a warm, flickering glow that creates deep shadows and highlights. The overall atmosphere is mysterious, dark, romantic, and hauntingly beautiful. The image has a cinematic quality, with a shallow depth of field, focusing sharply on the man. The aspect ratio is 9:16 (portrait). The resolution is 4K, with rich textures and deep contrasts."
+  },
+  {
+    img: require('../../assets/boy28.png'),
+    tag: "men",
+    text: "Hyper-realistic eye-level half-body portrait of a young artist (26-30) painting his own portrait by a glass window at twilight. Wearing a crisp white shirt with suspenders, wristbands, tattoo on forearm, paint splashes on hand & shirt. Studio filled with canvases. Sharp focus, moody twilight & warm indoor lighting blend, creamy bokeh, cinematic color grading, 8K UHD detail."
+  },
+  {
+    img: require('../../assets/boy27.png'),
+    tag: "men",
+    text: "Cinematic, hyper-realistic full-body portrait of me, make him romantic look toward camera, make him slightly slim(use uploaded face reference 100% accurately) sitting on a vintage park bench under lush yellow trees during golden hour. Focused on a small cluster of yellow flowers in front. Wearing a Blue oversized shirt, white trousers, black leather watch. Beside me is a neatly arranged rose flower bouquet."
+  },
+  {
+    img: require('../../assets/boy26.png'),
+    tag: "men",
+    text: "Vertical photorealistic close-up portrait of a person floating partially submerged in dark cinematic water. Preserve the subject's real facial proportions exactly, with eyes gently closed, mouth slightly open, and a serene natural expression. Emphasize ultra-real microdetail: visible skin pores, authentic wet stubble or skin texture depending on subject, individual water droplets clinging, natural imperfections preserved. Water surface interacts with the face, realistic transparent ripples crossing. cheeks and forehead, soft specular highlights and subtle reflections shaping features. Lighting is low-key, cinematic and intimate, with warm skin midtones softly illuminated against deep blue-teal shadows. Very shallow depth of field; sharp focus on eyes, nose and lips, hair and water fading into creamy bokeh. Aesthetics of an 85mm portrait at f/1.8, low ISO, with subtle analog film-like grain. Composition: vertical, close-up, face centered, proportions natural consistent across variations. Color grade balanced: warm midtones, deep cyan shadows, muted highlights, cinematic tonality. Post-processing directives: preserve authentic skin pores and microtextures (no smoothing), deep medium contrast, add gentle vignette and optical film grain. Final output: professional editorial quality, photorealistic cinematic, 8K resolution, RAW-like fidelity."
+  },
+  {
+    img: require('../../assets/boy25.png'),
+    tag: "men",
+    text: "A cinematic triptych of a young man under a glowing vintage streetlight on an autumn night, film-grain texture, swirling golden leaves, dreamy and dramatic http://lighting. Top panel: He stands beneath the streetlight, styled either in a loose maroon shirt with cream pleated trousers, a dark turtleneck and coat, or a pastel oversized sweater with relaxed off-white pants. Holding a book or notebook, hair tousled in the breeze.Middle panel: Close-up portrait with warm glow."
+  },
+  {
+    img: require('../../assets/boy24.png'),
+    tag: "men",
+    text: "A dreamy, ultra-realistic portrait of a handsome man lying gracefully beside white and blue orchid, his head resting gently on his arms, reflected perfectly on a glossy black surface. Soft cinematic lighting highlights his glowing skin and sharp yet delicate facial features, with slightly wet strands of hair falling naturally across his forehead. The mood is ethereal, romantic, artistic, with a serene atmosphere.High detail, professional studio photography, 8K resolution."
+  },
+  {
+    img: require('../../assets/boy23.png'),
+    tag: "men",
+    text: "Use reference upload photo full-body high-fashion editorial photograph of a man lounging casually on a fluffy cumulus cloud high above the sky, wearing an oversized dark gray coat, black turtleneck, wool trousers, and High Nike air Jordan OG X Travis Scott sneakers. He has stylish headphones over his ears, one leg bent on the cloud while the other dangles freely, and one Hand pose like spider man pose hand body slightly sleep back with eyes open as if absorbed in the music, look and little smile of the camera. The golden hour sunlight casts soft golden highlights across his silhouette and the glowing clouds. Captured at a slightly higher angle to enhance presence, photorealistic fashion editorial quality, candid mood. Vertical portrait aspect ratio."
+  },
+  {
+    img: require('../../assets/boy22.png'),
+    tag: "men",
+    text: "Ultra HD 16k high resolution DSLR quality hyper realistic full-body extreme bird's-eye (near 90° top-down) terrace shot, portrait orientation, subject standing with hands in pockets, looking up slightly, wearing a deep navy lightweight trench coat and matte black wrap sunglasses (slightly curved), dark tapered trousers and minimalist leather sneakers. Minimalist composition emphasizing geometric terrace tiles and symmetries, natural noon light with soft shadows, subtle vignette and filmic clarity, tilt-shift-style shallow plane to isolate subject from patterned ground, 24mm lens, f/4, ultra-crisp texture detail on fabric, skin, and tile grout."
+  },
   {
     img: require('../../assets/girl11.png'),
     tag: "women",
