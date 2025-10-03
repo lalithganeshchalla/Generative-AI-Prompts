@@ -13,7 +13,7 @@ const cardsData = [
   // },
   {
     img: require('../../assets/girl15.png'),
-    tag: "men",
+    tag: "women",
     text: "A highly realistic cinematic portrait ot a young Gujarati woman in a traditional Garba outfit. She is wearing a vibrant chaniya choli with mirror work, colorful embroidery, and a gracetully dupatta in authentic Gujarati style. She Is adorned with oxidized silver jewelry - bangles, jhumka earrings, necklace, and maang tikka -completing the festive look. Inspired by the uploaded reference image, her pose is elegant and her expression warm and graceful. The background has a dramatic cinematic effect similar to the reference photo: a dark moody backdrop with a diagonal beam of golden light falling on her, creating depth and highlighting her features. The overall grading is warm with subtle film grain, giving a professional retro-cinematic Gujarati festive atmosphere."
   },
   {
