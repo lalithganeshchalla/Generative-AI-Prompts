@@ -1,39 +1,52 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Header from '../components/header'
 import Buttons from '../components/buttons'
 import Cards from '../components/cards'
-import { Typography } from '@mui/material';
-import cardsData from '../components/prompts/data'
+import { Typography, CircularProgress, Box } from '@mui/material';
 import AdsenseAd from '../components/AdsenseAd';
+import { usePrompts } from '../hooks/usePrompts';
 
 const Home = () => {
-    const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("All");
+  const { prompts, loading, error } = usePrompts();
 
-
-    const filterData = 
+  const filterData =
     selectedCategory === "All"
-    ? cardsData
-    : cardsData.filter((card) => card.tag?.toLowerCase() === selectedCategory.toLowerCase());
+      ? prompts
+      : prompts.filter(
+          (card) => card.tag?.toLowerCase() === selectedCategory.toLowerCase()
+        );
+
   return (
     <>
-    <Header/>
+      <Header />
 
-    <Buttons
-    selectedCategory={selectedCategory}
+      <Buttons
+        selectedCategory={selectedCategory}
         setSelectedCategory={setSelectedCategory}
-    />
-    
-    <Typography variant="h6" align="center" gutterBottom>
-      {selectedCategory} Prompts
-    </Typography>
-    <AdsenseAd 
-        adClient="ca-pub-5889684785099263"
-        adSlot="5880516949" 
       />
-    <Cards
-    
-    data={filterData}
-    />
+
+      <Typography variant="h6" align="center" gutterBottom>
+        {selectedCategory} Prompts
+      </Typography>
+
+      <AdsenseAd 
+    adClient="ca-pub-2818707013005902"   
+    adSlot="5880516949" 
+      />
+
+      {loading ? (
+        <Box display="flex" justifyContent="center" mt={4}>
+          <CircularProgress />
+        </Box>
+      ) : error ? (
+        <Typography align="center" color="error" mt={4}>
+         
+An error occurred while loading the prompts. Please refresh.
+        </Typography>
+      ) : (
+        <Cards data={filterData} />
+      )}
     </>
   )
 }
