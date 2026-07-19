@@ -35,7 +35,7 @@ const Buttons = ({ selectedCategory, setSelectedCategory }) => {
           <div
             key={category.label}
             style={{ textAlign: 'center', cursor: 'pointer', flexShrink: 0 }}
-            onClick={() => setSelectedCategory(category.label)}
+            onClick={() => setSelectedCategory(category.label) }
           >
             <div
               style={{
